@@ -31,6 +31,37 @@ git clone https://github.com/duo-lark/lark-safe-write.git ~/.claude/skills/lark-
 /lark-safe-write
 ```
 
+### OpenAI Codex
+
+```bash
+# 1. 克隆到 Codex skills 目录
+git clone https://github.com/duo-lark/lark-safe-write.git ~/.agents/skills/lark-safe-write
+
+# 2. 重启 Codex 以加载新 Skill
+# 3. 触发方式：在对话中提及 skill 名称，或引用 $lark-safe-write
+使用 lark-safe-write 更新飞书文档
+```
+
+### OpenClaw
+
+```bash
+# 1. 克隆到 OpenClaw skills 目录
+git clone https://github.com/duo-lark/lark-safe-write.git ~/.openclaw/skills/lark-safe-write
+
+# 2. 触发方式：在任务或对话中引用 skill 名称
+请使用 lark-safe-write 流程写入 wiki
+```
+
+### Hermess
+
+```bash
+# 1. 克隆到 Hermess skills 目录
+git clone https://github.com/duo-lark/lark-safe-write.git ~/.hermes/skills/lark-safe-write
+
+# 2. 触发方式：在对话中直接请求
+用 lark-safe-write 安全写入流程处理这个 wiki 更新
+```
+
 ### Claude Chat / Claude CoWork
 
 将 `SKILL.md` 文件直接上传到对话中即可使用。
