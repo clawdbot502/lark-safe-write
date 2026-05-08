@@ -31,6 +31,37 @@ git clone https://github.com/duo-lark/lark-safe-write.git ~/.claude/skills/lark-
 /lark-safe-write
 ```
 
+### OpenAI Codex
+
+```bash
+# 1. Clone to Codex skills directory
+git clone https://github.com/duo-lark/lark-safe-write.git ~/.agents/skills/lark-safe-write
+
+# 2. Restart Codex to pick up the new skill
+# 3. Trigger by mentioning the skill name or referencing $lark-safe-write
+Use lark-safe-write to update the Feishu wiki document
+```
+
+### OpenClaw
+
+```bash
+# 1. Clone to OpenClaw skills directory
+git clone https://github.com/duo-lark/lark-safe-write.git ~/.openclaw/skills/lark-safe-write
+
+# 2. Trigger by referencing the skill name in tasks or conversations
+Please use lark-safe-write workflow to write to the wiki
+```
+
+### Hermess
+
+```bash
+# 1. Clone to Hermess skills directory
+git clone https://github.com/duo-lark/lark-safe-write.git ~/.hermes/skills/lark-safe-write
+
+# 2. Trigger by requesting it directly in conversation
+Use lark-safe-write safe write workflow for this wiki update
+```
+
 ### Claude Chat / Claude CoWork
 
 Upload the `SKILL.md` file directly into the conversation.
