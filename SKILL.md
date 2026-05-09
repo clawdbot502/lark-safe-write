@@ -143,6 +143,7 @@ mkdir -p .backups
 | `403 Forbidden` | bot 权限不足 | 停止，提示在 Feishu 控制台补权限 |
 | `400 Bad Request` | markdown 格式非法或包含不支持的标签 | 停止，清理内容后重试 |
 | 内容为空但 API 返回 200 | stdin 管道未正确传递内容 | 检查 `cat` 命令和管道，重试 |
+| 链接丢失 | 使用了 `<https://...>` 自动链接语法，飞书 docx 不兼容 | 改用标准 `[文本](https://...)` 语法 |
 
 ---
 
