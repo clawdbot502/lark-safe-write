@@ -1,4 +1,4 @@
-# Lark Safe Write — Claude Code Skill
+# Lark Safe Write
 
 A Claude Code Skill for safe writing to Lark/Feishu wiki. Enforces a four-step closed loop: **pre-check → backup → write → verify**, preventing accidental overwrites or silent write failures.
 
