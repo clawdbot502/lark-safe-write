@@ -115,7 +115,7 @@ git clone https://github.com/duo-lark/lark-safe-write.git ~/.hermes/skills/lark-
 
 ## 依赖
 
-- [lark-cli](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/cli/overview) — 已配置 bot 身份和权限
+- [lark-cli](https://open.larksuite.com/document/mcp_open_tools/feishu-cli-let-ai-actually-do-your-work-in-feishu) — 已配置 bot 身份和权限
 
 ---
 

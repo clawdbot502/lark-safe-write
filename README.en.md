@@ -115,7 +115,7 @@ Pre-check → Backup → Write → Verify
 
 ## Dependencies
 
-- [lark-cli](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/cli/overview) — configured with bot identity and permissions
+- [lark-cli](https://open.larksuite.com/document/mcp_open_tools/feishu-cli-let-ai-actually-do-your-work-in-feishu) — configured with bot identity and permissions
 
 ---
 
