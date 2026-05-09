@@ -1,4 +1,4 @@
-# Lark Safe Write — Claude Code Skill
+# Lark Safe Write
 
 Lark/Feishu wiki 安全写入流程 Skill。强制遵循「先备份、再写入、后验证」四步闭环，防止 wiki 文档被意外覆盖或写入失败导致数据丢失。
 
